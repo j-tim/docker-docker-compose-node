@@ -1,0 +1,7 @@
+version: '3.2'
+
+services:
+  docker-docker-compose-node:
+    image: docker-docker-compose-node:9.3.0
+    build:
+      context: 9.3.0
